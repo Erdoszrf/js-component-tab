@@ -7,6 +7,11 @@
 		  span{
 		    padding: 20px;
 		    background:skyblue;
+		    border-radius:5px;
+		    border:1px solid
+		  }
+		  .tab-container.active{
+		    box-shadow: 1px 1px 5px #888888;
 		  }
 		  div{
 		    width: 200px;
@@ -21,8 +26,7 @@
 		</style>
 	</head>
 	<body>
-	  <span class="tab-container">我是1</span>
-	  <span class="tab-container">我是2</span>
+	  <span class="tab-container active">我是1</span><span class="tab-container">我是2</span>
 	  <div class="div1 active">11111</div>
 	  <div class="div2">22222</div>
 	  <script src="tab.js"></script>
